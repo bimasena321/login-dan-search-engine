@@ -1,0 +1,55 @@
+h1{
+	text-align: center;
+	font-family: helvetica;
+	position: relative;
+	left: 50px;
+}
+.box{
+	margin: 100px auto;
+	width: 500px;
+	height: 100%;
+	border: 0;
+	outline: none;
+	border-radius: 40px;
+	background:rgba(0,0,4,0.17);
+	outline: none;
+	padding: 50px 0px;
+
+}
+.kinput{
+	height: 40px;
+	width: 300px;
+	border: 0;
+	border-radius: 40px;
+	position: relative;
+	left: 100px;
+}
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+	outline: none;
+
+}
+button{
+	height: 40px;
+	width: 100px;
+	border-radius: 30px;
+	position: relative;
+	left: 200px;
+	border: 0;
+	background: skyblue;
+	cursor: pointer;
+	
+	
+
+}
+.box button:active{
+	background: #27ae60;
+}
+html { 
+  background: url(https://cdn.magdeleine.co/wp-content/uploads/2022/02/4389302714_c520729e3f_o-1400x933.jpg);   
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+	

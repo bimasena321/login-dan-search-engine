@@ -1,0 +1,89 @@
+.box{
+	height: 100%;
+	width: 500px;
+	border-radius: 40px;
+	border: 0;
+	outline: none;
+	font-family: helvetica;
+	color: #fff;
+	background:rgba(0,0,0,0.13);
+	margin: 100px auto;
+	outline: 0;
+	
+	
+}
+.input,.pass{
+	height: 40px;
+	width: 300px;
+	border-radius: 20px;
+	border: 0;
+	position: relative;
+	left: 80px;
+	
+	
+}
+button{
+	border-radius: 40px;
+	height: 40px;
+	width: 100px;
+	background: skyblue;
+	border-color: skyblue;
+	margin-right: auto;
+	position: relative;
+	left: 96px;
+
+
+}
+.oca{
+	
+}
+html { 
+  background: url(https://cdn.magdeleine.co/wp-content/uploads/2018/07/IMG_4861-1-2-1400x933.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+.box h1{
+	text-align: center;
+	margin: 30px 0;
+	font-size: 30px;
+	position: relative;
+	top: 10px;
+}
+.box input{
+	width: 300px;
+	margin: 20px auto;
+	padding: 15px;
+	background: rgba(0,0,0,0.2);
+	color: #fff;
+	border: 0;
+}
+
+
+.box input:focus,.box input:active,.box button:focus,.box button:active{
+	outline: none;
+}
+.box button{
+	background: #742ECC;
+	border: 0;
+	color: #fff;
+	padding: 10px;
+	font-size: 20px;
+	width: 300px;
+	margin: 10px auto;
+	cursor: pointer;
+}
+
+.box button:active{
+	background: #27ae60;
+}
+
+
+
+
+
+
+
+
